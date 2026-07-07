@@ -1,0 +1,52 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# WordPress core
+public/wp-admin/
+public/wp-includes/
+public/*.php
+public/*.txt
+public/*.html
+public/license.txt
+public/readme.html
+public/xmlrpc.php
+
+# WordPress local/generated files
+public/wp-config.php
+public/.htaccess
+public/wp-content/uploads/
+public/wp-content/cache/
+public/wp-content/upgrade/
+public/wp-content/backups/
+public/wp-content/debug.log
+
+# Local test files
+public/phpinfo.php
+public/dbtest.php
+
+# SSL private keys / local certificates
+docker/certs/*.key
+docker/certs/*.crt
+docker/certs/*.pem
+docker/certs/*.csr
+
+# Database dumps / local data
+*.sql
+*.sql.gz
+*.dump
+db_data/
+mysql-data/
+mariadb-data/
+
+# Logs
+*.log
+logs/
+
+# Node / build artifacts
+node_modules/
+dist/
+build/
+.cache/
